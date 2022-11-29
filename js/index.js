@@ -89,7 +89,13 @@
       window.addEventListener('load', headerScrolled)
       onscroll(document, headerScrolled)
     }
-  
+
+
+/*$(".owl-carousel").owlCarousel({
+    loop:true,
+    autoplay:true,
+    nav:true,
+});*/
     /**
      * Back to top button
      */
