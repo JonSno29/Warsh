@@ -93,7 +93,7 @@ https://jonsno29.github.io/Warsh/
 
 Videos:
 
-file:///Users/jonsnover/Downloads/softwashvid.webm
+https://drive.google.com/file/d/1H14lqiNh66nIdiJNvfkb7C71pdNHW8BH/view
 
 
 
