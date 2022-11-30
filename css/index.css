@@ -670,11 +670,12 @@ body {
   }
   
   .features .img {
-    background-position: center center;
+    background-position: float-left;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    height: 300px;
     border-radius: 10px;
+    
   }
   
   /*--------------------------------------------------------------
@@ -725,6 +726,7 @@ body {
     transition: all ease-in-out 0.3s;
     color: #fbf7f7;
     margin-bottom: 20px;
+    font-weight: 700;
  }
   .services .icon-box-2:hover {
     text-decoration: none;
@@ -732,6 +734,7 @@ body {
     border-color: rgb(244, 4, 4);
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     transform: translateY(-10px);
+    font-weight: 700;
   }
   
   .services .icon-box .icon i {
@@ -747,7 +750,7 @@ body {
   }
   
   .services .icon-box h4 a {
-    color: #060505;
+    color: #8dccf7;
     transition: ease-in-out 0.3s;
   }
   

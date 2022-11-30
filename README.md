@@ -94,7 +94,8 @@ https://jonsno29.github.io/Warsh/
 
 
 ## INSTALLATION, USAGE & MOCK-UP:
-
+<strong>Phone:</strong> +1 623 332 8018<br>
+                <strong>Email:</strong>fullcountsoftwash@gmail.com<br>
 The apps used to run
 
 🎗 Node.js
