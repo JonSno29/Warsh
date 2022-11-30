@@ -132,7 +132,7 @@ body {
   #header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 15px 0;
+    padding: 10px 0;
   }
   
   #header.header-scrolled,
@@ -149,6 +149,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+   
     
     
   }
@@ -164,6 +165,7 @@ body {
   #header .logo img {
     max-height: 200px;
     width: 400px;
+    
     
   }
   
@@ -201,6 +203,7 @@ body {
   */
   .navbar {
     padding: 0;
+   
   }
   
   .navbar ul {
@@ -208,11 +211,11 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
-    align-items: center;
+    position: relative;
   }
   
   .navbar li {
-    position: relative;
+    position: ;
   }
   
   .navbar a,
@@ -706,6 +709,7 @@ body {
     transition: all ease-in-out 0.3s;
     color: #f8fafa;
     margin-bottom: 20px;
+    
  }
   .services .icon-box-1:hover {
     text-decoration: none;
@@ -726,7 +730,7 @@ body {
     transition: all ease-in-out 0.3s;
     color: #fbf7f7;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 700px;
  }
   .services .icon-box-2:hover {
     text-decoration: none;
@@ -875,6 +879,7 @@ body {
   
   .portfolio .portfolio-wrap img {
     transition: all ease-in-out 0.3s;
+   
   }
   
   .portfolio .portfolio-wrap .portfolio-info {
@@ -942,11 +947,14 @@ body {
   --------------------------------------------------------------*/
   .portfolio-details {
     padding-top: 40px;
+   
   }
   
   .portfolio-details .portfolio-details-slider img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
+    margin-bottom: 1px;
   }
   
   .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1286,7 +1294,7 @@ body {
   --------------------------------------------------------------*/
   .contact .info {
     width: 100%;
-    background: #fff;
+    background: rgb(253, 251, 251);
   }
   
   .contact .info i {
@@ -1507,10 +1515,13 @@ body {
     line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
+   
   }
   
   #footer .footer-top .footer-info h3 span {
     color: #53a9f9;
+    position: center;
   }
   
   #footer .footer-top .footer-info p {
@@ -1518,7 +1529,8 @@ body {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: rgb(250, 248, 248);
+    text-align: center;
   }
   
   #footer .footer-top .social-links a {
@@ -1534,20 +1546,24 @@ body {
     width: 36px;
     height: 36px;
     transition: 0.3s;
+   
+   
+  
   }
   
   #footer .footer-top .social-links a:hover {
     background: #51c8ff;
-    color: #494747;
+    color: #c1bfbf;
     text-decoration: none;
   }
   
   #footer .footer-top h4 {
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(250, 247, 247);
     position: relative;
     padding-bottom: 12px;
+   
   }
   
   #footer .footer-top .footer-links {
@@ -1582,6 +1598,8 @@ body {
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
+    
+    
   }
   
   #footer .footer-top .footer-links ul a:hover {
@@ -1594,6 +1612,7 @@ body {
     padding: 6px 10px;
     position: relative;
     border-radius: 4px;
+    
   }
   
   #footer .footer-top .footer-newsletter form input[type=email] {
