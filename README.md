@@ -93,9 +93,8 @@ https://jonsno29.github.io/Warsh/
 
 Videos:
 
-https://drive.google.com/file/d/1Exn_cUV-I5xHMVDacpdgQG5MtMwS1y5Z/view
+file:///Users/jonsnover/Downloads/softwashvid.webm
 
-file:///Users/jonsnover/Downloads/Untitled_%20Nov%2030,%202022%202_56%20AM.webm
 
 
 

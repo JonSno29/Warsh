@@ -115,11 +115,11 @@
   
   });
   
-  /*$(".owl-carousel").owlCarousel({
+  $(".owl-carousel").owlCarousel({
       loop:true,
       autoplay:true,
       nav:true,
-  });*/
+  });
 
 /*$(".owl-carousel").owlCarousel({
     loop:true,
