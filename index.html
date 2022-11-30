@@ -11,15 +11,15 @@
   <meta content="" name="keywords">
   
 <!-- fontawesome link-->
-<link  href="./fontawesome-free-6.2.1-web/css/all.min.css" rel="stylesheet">
+<link href="./css/fontawesome-all.min.css" rel="stylesheet">
 
 <!-- bootstrap link -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- owl-carcoul link -->
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="./css/owl.carousel.min.css">
+<link rel="stylesheet" href="./css/owl.theme.default.min.css">
 <!-- css link -->
-<link href="css/index.css" rel="stylesheet"/>
+<link href="css/index.css" rel="stylesheet">
 
   <!-- Favicons -->
   <link href="img/FC.ico" rel="img/FC.ico">
@@ -31,7 +31,7 @@
   <!-- Vendor CSS Files -->
   <link href="css/all.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="bootstrap-icons">
   <link href="css/boxicons.min.css" rel="stylesheet">
   <link href="css/glightbox.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
@@ -199,28 +199,19 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
+    <section id="portfolio" class="container">
+      <div class="portfolio" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Look At</h2>
           <p>Our Portfolio</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active"></li>
-              <li data-filter=".filter-app"></li>
-              <li data-filter=".filter-card"></li>
-              <li data-filter=".filter-web"></li>
-            </ul>
-          </div>
-        </div>
+        
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col column">
             <div class="portfolio-wrap">
               <img src="img/image7.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -443,7 +434,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="img/baseball1.png" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <p>
@@ -558,8 +549,8 @@
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi instagram"></i></a>
+                  <a href=""><i class="bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -663,10 +654,10 @@
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/search/top?q=full%20count%20soft%20wash" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.facebook.com/search/top?q=full%20count%20soft%20wash" class="facebook"><i class=""></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="mailto:fullcountsoftwash@gmail.com" class="fa fa-envelope"><span class="label"></span></a>
-						    <a href="tel:(623)332-8018" class="fa fa-phone"><span class="label"></span></a>
+                <a href="mailto:fullcountsoftwash@gmail.com" class=""><span class="label"></span></a>
+						    <a href="tel:(623)332-8018" class=""><span class="label"></span></a>
                 
               </div>
             </div>
@@ -695,16 +686,20 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
- 
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="js/purecounter_vanilla.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- bootstrap link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- owl-carcoul link -->
+  <script src="./js/owl.carousel.min.js"></script>
  
   <!-- Template Main JS File -->
   <script src="js/index.js"></script>

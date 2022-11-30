@@ -1,9 +1,4 @@
-/**
-* Template Name: Gp - v4.9.1
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap');
 
 /*--------------------------------------------------------------
 # General
@@ -133,11 +128,14 @@ body {
     transition: all 0.5s;
     z-index: 997;
     padding: 10px 0;
+ 
   }
   
   #header.header-scrolled,
   #header.header-inner-pages {
     background: rgba(21, 20, 20, 0.8);
+    padding-top: -10rem;
+    padding-bottom: -10rem;
    
   }
   
@@ -163,8 +161,9 @@ body {
   }
   
   #header .logo img {
-    max-height: 200px;
-    width: 400px;
+    height: 120px;
+    width: 300px;
+    position: start;
     
     
   }
@@ -215,7 +214,7 @@ body {
   }
   
   .navbar li {
-    position: ;
+    position: relative;
   }
   
   .navbar a,
@@ -862,6 +861,9 @@ body {
     overflow: hidden;
     z-index: 1;
     background: rgba(21, 21, 21, 0.6);
+    border-radius: 10px;
+    padding: 1%;
+   
   }
   
   .portfolio .portfolio-wrap::before {
@@ -879,6 +881,8 @@ body {
   
   .portfolio .portfolio-wrap img {
     transition: all ease-in-out 0.3s;
+    position: relative;
+    z-index: 2;
    
   }
   
@@ -949,6 +953,11 @@ body {
     padding-top: 40px;
    
   }
+  .Portfolio .column {
+    flex: 31%;
+    max-width: 31%;
+    padding: 0 4px;
+}
   
   .portfolio-details .portfolio-details-slider img {
     width: 100%;
@@ -1074,7 +1083,7 @@ body {
   .counts .image {
     background: url("../img/roofcleaning.jpeg") center center no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 350px;
     border-radius: 10px;
   }
   
