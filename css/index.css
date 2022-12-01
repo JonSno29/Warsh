@@ -787,19 +787,19 @@ body {
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
     background-size: cover;
     padding: 60px 0;
-    background: url("../img/washme.webp") top center;
+    background: url("../img/brickpw.jpeg") top center;
     background-attachment: fixed;
     background-position: center;
   }
   
   .cta h3 {
-    color: rgb(0, 0, 0);
+    color: rgb(246, 248, 194);
     font-size: 28px;
     font-weight: 700;
   }
   
   .cta p {
-    color: rgb(6, 5, 5);
+    color: rgb(252, 251, 226);
     font-size: 20px;
     font-weight: 400;
   }
@@ -814,7 +814,7 @@ body {
     border-radius: 4px;
     transition: 0.5s;
     margin-top: 10px;
-    border: 2px solid rgb(3, 2, 2);
+    border: 2px solid rgb(253, 252, 225);
     color: rgb(2, 2, 2);
   }
   
@@ -1520,7 +1520,7 @@ body {
   --------------------------------------------------------------*/
   #footer {
     background: black;
-    padding: 0 0 20px 0;
+    padding: 0 0 10px 0;
     color: #fff;
     font-size: 14px;
     
@@ -1529,11 +1529,11 @@ body {
   #footer .footer-top {
     background: #151515;
     border-bottom: 1px solid #222222;
-    padding: 60px 0 30px 0;
+    padding: 5px 0 40px 0;
   }
   
   #footer .footer-top .footer-info {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   #footer .footer-top .footer-info h3 {
