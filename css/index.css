@@ -1520,9 +1520,10 @@ body {
   --------------------------------------------------------------*/
   #footer {
     background: black;
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
     color: #fff;
     font-size: 14px;
+    
   }
   
   #footer .footer-top {
@@ -1573,6 +1574,7 @@ body {
     width: 36px;
     height: 36px;
     transition: 0.3s;
+    justify-content: center;
    
    
   
